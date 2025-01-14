@@ -1,5 +1,23 @@
+@font-face {
+  font-family: "Cabin";
+  src: url(../fonts/Cabin-Regular-TTF.ttf);
+}
+
+@font-face {
+  font-family: "Cabin";
+  src: url(../fonts/Cabin-Bold-TTF.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Cabin";
+  src: url(../fonts/Cabin-Medium-TTF.ttf);
+  font-weight: medium;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
 }

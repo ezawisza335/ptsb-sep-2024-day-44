@@ -1,9 +1,32 @@
+@font-face {
+  font-family: "Cabin";
+  src: url(../fonts/Cabin-Regular-TTF.ttf);
+}
+
+@font-face {
+  font-family: "Cabin";
+  src: url(../fonts/Cabin-Bold-TTF.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Cabin";
+  src: url(../fonts/Cabin-Medium-TTF.ttf);
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "Cabin";
+  src: url(../fonts/Cabin-Italic-TTF.ttf);
+  font-weight: italic;
+}
+
 .navigation-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #333;
+  background-color: rebeccapurple;
   color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
